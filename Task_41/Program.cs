@@ -21,7 +21,6 @@ int NatureNumber(string ending)
         {
             number = Convert.ToInt32(symbol);
             if (number > 0) count++;
-            Console.WriteLine($"Count={count}");
         }
     }
     return count;
